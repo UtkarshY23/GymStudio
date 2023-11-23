@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link href="style.css" rel="stylesheet" />
+    <link href="queries.css" rel="stylesheet" />
+    <script defer src="script.js"></script>
+    <title>GYM studio</title>
+  </head>
+  <body>
+      <header class="navigation flex">
+        <h2 class="nav-logo heading-secondary color">GymStudio</h2>
+        <div class="nav ">
+          <ul class="nav-links flex">
+
+          <li>  <a class="nav-link" href="#">home</a></li>  
+          <li>  <a class="nav-link" href="#">about us</a></li>  
+          <li>  <a class="nav-link" href="#">feature</a></li>  
+          <li>  <a class="nav-link" href="#">princing</a></li>  
+          <li>  <a class="btn " href="#">join class now</a></li>  
+          
+          </ul>
+          
+        </div>
+        <ion-icon class="nav-icons open btn-opens" name="grid-outline"></ion-icon>
+        <ion-icon class="nav-icons close" name="close-circle-outline"></ion-icon>
+      </header>
+      <section class="hero">
+        <video
+          class="video"
+          autoplay
+          muted
+          loop
+          src="media/gym-video1.mp4"
+        ></video>
+        <div class="overlay flex colmn">
+          <h3 class="heading-tertiary hero-tertiary-heading color">work harder, get stronger</h3>
+          <h1 class="hero-heading heading-primary color">
+            easy with our <strong class="strong">gym</strong>
+          </h1>
+          <a href="#" class="btn">become a member</a>
+        </div>
+      </section>
+      <section class="about flex container">
+
+
+        <div class="about-box flex">
+          <ion-icon class="about-icons" name="timer-outline"></ion-icon>
+          <h3 class="heading-tertiary about-heading">PROGRESSION</h3>
+          <p class="about-text">
+            Our team of experts will work with you to create a customized plan
+            that helps you achieve success your health goal.
+          </p>
+        </div>
+        <div class="about-box flex">
+          <ion-icon class="about-icons" name="barbell-outline"></ion-icon>
+          <h3 class="heading-tertiary about-heading">WORKOUT</h3>
+          <p class="about-text">
+            With a variety of workout to choose form you'll have everything you
+            need to get into the best shape of your life.
+          </p>
+        </div>
+        <div class="about-box flex">
+          <ion-icon class="about-icons" name="clipboard-outline"></ion-icon>
+          <h3 class="heading-tertiary about-heading">NUTRITION</h3>
+          <p class="about-text">
+            Our team will work with you to create a personalized meal plan that
+            helps you reach your specfic health goals.
+          </p>
+        </div>
+      
+      </section>
+
+      <section class="who container column-2">
+          <div class="who-text">
+             <div class="who-title flex container">
+              <div class="tab-intro">
+                <img
+                  class="title-bck-img"
+                  src="media/title-bg.13d788348b56c629eefb2e7ad1f4d6ce.svg"
+                  alt="title background"
+                />
+                <h4 class="tab--title">WHO WE ARE</h4>
+              </div>
+             </div>
+            <h2 class="who-heading heading-secondary">
+              Take Your Health And Body To Next Level
+            </h2>
+            <p class="who-prg">
+              Take your health and body to the next level with our comprehensive
+              program designed to help you reach your fitness goals.
+            </p>
+            <div class="flex who-feature">
+              <div class="who-feature-box feature--1">
+                <img
+                class="who-text-img"
+                src="media/weightlifter.fdb39166bd9fd960aac2.png"
+                alt="man lifting weights"
+                />
+                <h3 class="heading-tertiary uppercase feature--heading">professional trainers</h3>
+              </div>
+              <div class="who-feature-box feature--2">
+                <img
+                class="who-text-img"
+                src="media/equpments.f102757b82b68f55f831.png"
+                alt="gym equipments"
+                />
+                <h3 class="heading-tertiary uppercase feature--heading">modern equipments</h3>
+              </div>
+              <div class="who-feature-box feature--3">
+                <img
+                class="who-text-img"
+                src="media/gym.377b234bd8a2adfc4675.png"
+                alt="gym machine"
+                />
+                <h3 class="heading-tertiary uppercase feature--heading">fancy gym machine</h3>
+              </div>
+            </div>
+            <a class="who-btn btn" href="#">take a tour</a>
+          </div>
+          <div class="who-img">
+            <img class="girl-img" src="media/girl run.png" alt="girl running" />
+            <img class="girl-back" src="media/back.svg" alt="red half circle" />
+          </div>
+      </section>
+      <section class="container feature">
+        <div class="feature-title flex">
+          <div class="feature-intro">
+            <img
+              class="title-bck-img"
+              src="media/title-bg.13d788348b56c629eefb2e7ad1f4d6ce.svg"
+              alt="title background"
+            />
+            <h4 class="title">our featured class</h4>
+          </div>
+          <h2 class="feature-heading heading-secondary">
+            We Are Offering Best Flexible Classes
+          </h2>
+        </div>
+        <div class="feature-gallery">
+          <div class="feature-box cycling relative" hover>
+            <!-- <img
+              class="feature-img"
+              src="media/cycling.jpg"
+              alt="man doing cycling"
+            /> -->
+            <div class="item-0 hover"></div>
+            <div class="item">
+              <h2 class="heading-secondary color">Cycling</h2>
+              <p>Wednesday: 9:00am-10:00am</p>
+            </div>
+          </div>
+
+          <div class="feature-box karate relative">
+            <!-- <img
+              class="feature-img"
+              src="media/karate1.jpg"
+              alt="karate class"
+            /> -->
+            <div class="item-1 hover"></div>
+            <div class="item">
+              <h2 class="heading-secondary color">Karate</h2>
+              <p>Friday: 10:00am-11:00am</p>
+            </div>
+          </div>
+
+          <div class="feature-box power relative">
+            <!-- <img
+              class="feature-img"
+              src="media/power.jpg"
+              alt="man doing powerlifting"
+            /> -->
+            <div class="item-2 hover"></div>
+            <div class="item">
+              <h2 class="heading-secondary color">Power</h2>
+              <p>Saturday: 9:00am-10:00am</p>
+            </div>
+          </div>
+
+          <div class="feature-box meditation relative">
+            <!-- <img
+              class="feature-img"
+              src="media/meditation.jpg"
+              alt="woman doing Meditaion"
+            /> -->
+            <div class="item-3 hover"></div>
+            <div class="item">
+              <h2 class="heading-secondary color">Meditaion</h2>
+              <p>Friday: 1:00pm-2:00pm</p>
+            </div>
+          </div>
+
+          <div class="feature-box martial relative">
+            <!-- <img
+              class="feature-img"
+              src="media/martial arts.jpg"
+              alt="man doing boxing"
+            /> -->
+            <div class="item-4 hover"></div>
+            <div class="item">
+              <h2 class="heading-secondary color">Martial Arts</h2>
+              <p>Sunday: 6:00pm-7:00pm</p>
+            </div>
+          </div>
+          <div class="feature-box workout relative">
+            <!-- <img
+              class="feature-img"
+              src="media/workout.jpg"
+              alt="man doing workout"
+            /> -->
+            <div class="item-5 hover"></div>
+            <div class="item">
+              <h2 class="heading-secondary color">Workout</h2>
+              <p>Monday: 6:00pm-7:00pm</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cta ">
+        <div class="cta-heading-img flex">
+          <div class="cta-heading flex ">
+            <h2 class="cta-main-heading heading-secondary color">
+              We Are Always Providing Best <br />
+              Fitness Service For You
+            </h2>
+            <a class="btn cta-btn" href="#">join with us</a>
+          </div>
+        </div>
+
+        <div class="cta-text-container">
+
+
+        <div class="cta-text flex container">
+          <img
+            class="cta-text-img"
+            src="media/martial arts.webp"
+            alt="man doing workout"
+          />
+          <div class="cta-content color">
+            <div class="cta-intro flex">
+              <img
+                class="cta-bck-img"
+                src="media/title-bg.13d788348b56c629eefb2e7ad1f4d6ce.svg"
+                alt="title background"
+              />
+              <h4 class="cta-title">why choose us</h4>
+            </div>
+            <h2 class="cta-h2 heading-secondary color">
+              We Can a Shape of Your Body Here!
+            </h2>
+            <p class="cta-prg">
+              At <strong>Gymate</strong>, we are dedicated to helping you
+              achieve the body of your dreams. Our expert trainers and
+              nutritionists will work with you to create a personalized fitness
+              and nutrition plan that helps you reach your specific goals.
+            </p>
+            <div class="cta-type">
+              <div class="cta-item1 flex">
+                <img
+                  class="cta-type-img"
+                  src="media/download (2).png"
+                  alt="logo"
+                />
+                <h3 class="heading-tertiary color">Free Fitness Training</h3>
+              </div>
+              <div class="cta-item2 flex">
+                <img
+                  class="cta-type-img"
+                  src="media/download (1).png"
+                  alt="logo"
+                />
+                <h3 class="heading-tertiary color">Modern Gym Equipments</h3>
+              </div>
+              <div class="cta-item3 flex">
+                <img
+                  class="cta-type-img"
+                  src="media/download (3).png"
+                  alt="logo"
+                />
+                <h3 class="heading-tertiary color">Gym Bag Equipments</h3>
+              </div>
+              <div class="cta-item4 flex">
+                <img class="cta-type-img" src="media/download.png" alt="logo" />
+                <h3 class="cta-type-heading heading-tertiary color">
+                  Fresh Bottle Watter
+                </h3>
+              </div>
+            </div>
+            
+
+              <a class="cta-text-btn btn" href="#">our Classes</a> 
+          </div>
+          </div>
+        </div>
+
+      </section>
+      <section class="tab ">
+        <div class="tab-title flex container">
+          <div class="tab-intro">
+            <img
+              class="title-bck-img"
+              src="media/title-bg.13d788348b56c629eefb2e7ad1f4d6ce.svg"
+              alt="title background"
+            />
+            <h4 class="tab--title">GYM TRAINER</h4>
+          </div>
+          <h2 class="feature-heading heading-secondary">
+            Team Of Expert Trainers
+          </h2>
+          <p class="tab-text">Our team of expert trainers help you achieve your goals, with personalized guidance and training </p>
+        </div>
+        <div class="tab-container flex">
+          <div class="tab-button flex">
+            <button class="tab-btn btn-active" data-tab="1">andres</button>
+            <button class="tab-btn " data-tab="2">Jimmey</button>
+            <button class="tab-btn" data-tab="3">mikhail</button>
+          </div>
+          <div class="tab-content tab-content--1 tab-content--active">
+            <img class="tab-img" src="tab-img/trainer1.webp" alt="trainer photo">
+            <div class="tab-trainers-info">
+              <!-- <ion-icon class="tab-icons-up" name="chevron-up-outline"></ion-icon> -->
+            <h4 class="tab-trainers">Crossfit Trainer</h4>
+            <div class="flex tab-icons-container">
+            <ion-icon class="tab-icons" name="logo-facebook"></ion-icon>
+            <ion-icon class="tab-icons" name="logo-instagram"></ion-icon>
+            <ion-icon class="tab-icons" name="logo-twitter"></ion-icon>
+            <ion-icon class="tab-icons" name="mail-outline"></ion-icon>
+            </div>
+            </div>
+          </div>
+          <div class="tab-content tab-content--2 "><img class="tab-img" src="tab-img/trainer2.webp" alt="trainer photo">
+            <div class="tab-trainers-info">
+            
+            <h4 class="tab-trainers">Lifting Trainer</h4>
+            <div class="flex tab-icons-container">
+            
+            <ion-icon class="tab-icons" name="logo-facebook"></ion-icon>
+            <ion-icon class="tab-icons" name="logo-instagram"></ion-icon>
+            <ion-icon class="tab-icons" name="logo-twitter"></ion-icon>
+            <ion-icon class="tab-icons" name="mail-outline"></ion-icon>
+            </div>
+            </div>
+          </div>
+          <div class="tab-content tab-content--3"><img class="tab-img" src="tab-img/trainer3.webp" alt="trainer photo">
+            <div class="tab-trainers-info">
+            
+            <h4 class="tab-trainers">Yoga Trainer</h4>
+            <div class="flex tab-icons-container">
+            
+            <ion-icon class="tab-icons" name="logo-facebook"></ion-icon>
+            <ion-icon class="tab-icons" name="logo-instagram"></ion-icon>
+            <ion-icon class="tab-icons" name="logo-twitter"></ion-icon>
+            <ion-icon class="tab-icons" name="mail-outline"></ion-icon>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testmonial">
+        <div class="tab-title flex container">
+          <div class="tab-intro">
+            <img
+            class="title-bck-img"
+            src="media/title-bg.13d788348b56c629eefb2e7ad1f4d6ce.svg"
+            alt="title background"
+            />
+            <h4 class="tab--title testmonial-heading">TESTMONIAL</h4>
+          </div>
+        </div>
+         
+         
+        <div class="slider flex">
+            <div class="tsml-content ">
+             <img  class="tst-img" src="testmonial-img/testmonial1.webp" alt="photo">
+             <div class="text">
+               <blockquote class="tsml-text">
+                 " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, laudantium? Accusamus illum ."
+                </blockquote>
+                <h4 class="custmer">- XYZ</h4>
+             </div>
+            </div>
+            <div class="tsml-content ">
+              <img  class="tst-img" src="testmonial-img/testmonial2.webp" alt="photo">
+              <div class="text">
+                <blockquote class="tsml-text">
+                 " Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati unde corrupti quod, atque. "
+                </blockquote>
+                <h4 class="custmer">- XYZ</h4>
+              </div>
+            </div>
+            <div class="tsml-content ">
+              <img  class="tst-img" src="testmonial-img/testmoinal3.webp" alt="photo">
+              <div class="text">
+                <blockquote class="tsml-text">
+                 " Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati unde corrupti quod, atque. "
+                </blockquote>
+                <h4 class="custmer">- XYZ</h4>
+              </div>
+            </div>
+            <button class="slider__btn slider__btn--left">&larr;</button>
+            <button class="slider__btn slider__btn--right">&rarr;</button>
+            <div class="dots"> 
+
+            </div>
+            <!-- <ion-icon class="tst-slider-icon back" name="arrow-back-outline"></ion-icon>
+            <ion-icon class="tst-slider-icon forward" name="arrow-forward-outline"></ion-icon> -->
+        </div>
+          
+           
+      </section>
+      <section class="price-section">
+        <div class="tab-title flex container">
+          <div class="tab-intro">
+            <img
+              class="title-bck-img"
+              src="media/title-bg.13d788348b56c629eefb2e7ad1f4d6ce.svg"
+              alt="title background"
+            />
+            <h4 class="tab--title">PRICING CHART</h4>
+          </div>
+          <h2 class="feature-heading heading-secondary">
+           Exclusive Pricing Plan
+          </h2>
+          <!-- <p class="tab-text">Our team of expert trainers help you achieve your goals,<br>with personalized guidance and training </p> -->
+        </div>
+
+          <div class="price  flex">
+
+
+            <div class="price-box">
+              <div class="img">
+                <img class="price-img" src="price-img/price0.webp" alt="photo">
+                <h3>beginner</h3>
+              </div>
+              <div class="price-text flex">
+
+                <p> <strong> &#x20B9; 1500</strong> p/m</p>
+
+
+                <p>Gym Fitness</p>
+                <p>Locker</p>
+                <p>Jumba</p>
+                <p>Trainer</p>
+                
+             
+
+                <a class="btn price-btn" href="#">purchase now</a>
+
+
+              </div>
+            </div>
+            <div class="price-box">
+              <div class="img">
+                <img class="price-img" src="price-img/price1.webp" alt="photo">
+                <h3>medium</h3>
+
+              </div>
+              <div class="price-text flex">
+                <p> <strong> &#x20B9; 2000</strong> p/m</p>
+
+
+                <p>Gym Fitness</p>
+                <p>Locker</p>
+                <p>Jumba</p>
+                <p>Trainer</p>
+                <a class="btn price-btn" href="#">purchase now</a>
+              </div>
+            </div>
+            <div class="price-box">
+            <div class="img">
+
+              <img class="price-img" src="price-img/price3webp.webp" alt="photo">
+              <h3>advance</h3>
+            </div>
+              <div class="price-text flex">
+                <p> <strong> &#x20B9; 2500</strong> p/m</p>
+                <p>Gym Fitness</p>
+                <p> Private Locker</p>
+                <p> Jumba</p>
+                <p>Personal Trainer</p>
+
+                <a class="btn price-btn" href="#">purchase now</a>
+                
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section class="section-info flex">
+        <div class="info container color">
+        <h2 class="heading-secondary color">Need a Fitness Trainer?</h2>
+        <h3 class="heading-tertiary color"><strong>Call us</strong>: +91-123456789</h3>
+        <a class="btn info-btn" href="#">purchase</a>
+        </div>
+      </section>
+      <footer class="footer-section ">
+        <div class="footer-container container">
+         <div class="footer-column flex first">
+          <h2 class="heading-secondary footer-heading">GymStudio</h2>
+          <p>Power Gym</p>
+          <p>Take your health and body to the next level with our comprehensive program designed to help you reach your fitness goals.</p>
+          <div class="flex tab-icons-container footer-icons">
+            <ion-icon class="tab-icons" name="logo-facebook"></ion-icon>
+            <ion-icon class="tab-icons" name="logo-instagram"></ion-icon>
+            <ion-icon class="tab-icons" name="logo-twitter"></ion-icon>
+            <ion-icon class="tab-icons" name="mail-outline"></ion-icon>
+          </div>
+          <p>Copyright &#169; 2023 by GymStudio,
+            Inc. All rights reserved</p>
+         </div>
+         <div class="footer-column flex second">
+          <h2 class="heading-secondary footer-heading">our Classes</h2>
+          <p>Aerobics Classes</p>
+          <p>Fitness Classes</p>
+          <p>Power Yoga</p>
+          <p>Learn Machines
+
+          </p>
+          <p>Full-body Strength</p>
+
+         </div>
+
+          
+         <div class="footer-column flex third">
+         <h2 class="heading-secondary footer-heading">working hour</h2>
+         <h4>Monday-Friday</h4>
+         <p>5:00am - 11:00pm</p>
+         <h4>Saturday</h4>
+         <p>5:00am - 9:00pm</p>
+         <h4>Sunday - Closed</h4>
+        
+        
+         </div>
+        </div> 
+      </footer>
+  </body>
+</html>
