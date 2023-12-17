@@ -1,4 +1,4 @@
-Gym Studio Website
+Gym Studio Website-
 Welcome to the Gym Studio website! This website showcases a fictional gym's online presence, highlighting its services, classes, and more.
 
 Features:
