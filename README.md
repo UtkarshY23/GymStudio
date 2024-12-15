@@ -11,5 +11,5 @@ Technologies Used:
 HTML5
 CSS3
 JavaScript
-Preview:
-Visit the website: Gym Studio Website
+
+Visit the website: https://gymstudio-utk.netlify.app/
